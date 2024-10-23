@@ -47,7 +47,7 @@ public class OAuthTest {
 
 		ArrayList<String> a = new ArrayList<String>();
 		List<WebAutomation> w = gc.getCourses().getWebAutomation();
-
+		
 		for (int j = 0; j < w.size(); j++) {
 
 			a.add(w.get(j).getCourseTitle());
